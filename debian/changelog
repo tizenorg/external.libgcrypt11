@@ -1,0 +1,16 @@
+libgcrypt11 (1.4.4-5slp2+s2) unstable; urgency=low
+
+  * Renamed tag
+  * Git: unmodified/libgcrypt11
+  * Tag: libgcrypt11_1.4.4-5slp2+s2
+
+ -- Taeksu Shin <taeksu.shin@samsung.com>  Thu, 15 Dec 2011 12:29:24 +0900
+
+libgcrypt11 (1.4.4-1tizen) unstable; urgency=low
+
+  * Ported to Tizen
+  * Git: unmodified/libgcrypt11
+  * Tag: libgcrypt11_1.4.4-1tizen
+
+ -- Taeksu Shin <taeksu.shin@samsung.com>  Wed, 07 Dec 2011 11:25:33 +0900
+
