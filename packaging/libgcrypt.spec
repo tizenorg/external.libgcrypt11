@@ -2,6 +2,7 @@ Name: libgcrypt
 Version: 1.4.4
 Release: 5
 Source0: ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-%{version}.tar.gz
+Source1001: packaging/libgcrypt.manifest 
 
 License: LGPLv2+
 Summary: A general-purpose cryptography library
@@ -27,6 +28,7 @@ applications using libgcrypt.
 %setup -q
 
 %build
+cp %{SOURCE1001} .
 %reconfigure --disable-static --enable-malloc0returnsnull \
            --with-gpg-error-prefix=%{_prefix}
 make %{?jobs:-j%jobs}
@@ -46,9 +48,11 @@ rm -fr $RPM_BUILD_ROOT
 
 
 %files
+%manifest libgcrypt.manifest
 /%{_libdir}/*.so.*
 
 %files devel
+%manifest libgcrypt.manifest
 %{_includedir}/*
 %{_libdir}/*.so
 %exclude %{_bindir}/libgcrypt-config
