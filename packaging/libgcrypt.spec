@@ -1,3 +1,4 @@
+#sbs-git:slp/unmodified/libgcrypt11 libgcrypt 1.4.4 a8637cda42f30ffa3200f43cc02b9bc607008661
 Name: libgcrypt
 Version: 1.4.4
 Release: 5

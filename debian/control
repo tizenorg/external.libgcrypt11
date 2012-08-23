@@ -1,8 +1,8 @@
 Source: libgcrypt11
 Section: libs
 Priority: extra
-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>, Taeksu Shin <taeksu.shin@samsung.com>, Dongwook Lee <dwmax.lee@samsung.com>
-Uploaders: Taeksu Shin <taeksu.shin@samsung.com>, Dongwook Lee <dwmax.lee@samsung.com>
+Maintainer: Mike McCormack <mj.mccormack@samsung.com>, Taeksu Shin <taeksu.shin@samsung.com>, Dongwook Lee <dwmax.lee@samsung.com>
+X-Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Build-Depends: debhelper (>= 5), autotools-dev, libgpg-error-dev
 Standards-Version: 3.7.2
 

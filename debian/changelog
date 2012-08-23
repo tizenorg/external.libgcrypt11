@@ -1,16 +1,46 @@
 libgcrypt11 (1.4.4-5slp2+s2) unstable; urgency=low
 
-  * Renamed tag
-  * Git: unmodified/libgcrypt11
+  * tag update
+  * Remove doc and tests from build script
+  * Git: 165.213.180.234:slp/unmodified/libgcrypt11
   * Tag: libgcrypt11_1.4.4-5slp2+s2
 
- -- Taeksu Shin <taeksu.shin@samsung.com>  Thu, 15 Dec 2011 12:29:24 +0900
+ -- Dongwook Lee <dwmax.lee@samsung.com>  Wed, 7 Sep 2011 15:10:51 +0900
 
-libgcrypt11 (1.4.4-1tizen) unstable; urgency=low
 
-  * Ported to Tizen
-  * Git: unmodified/libgcrypt11
-  * Tag: libgcrypt11_1.4.4-1tizen
+libgcrypt11 (1.4.4-5slp2+s1) unstable; urgency=low
 
- -- Taeksu Shin <taeksu.shin@samsung.com>  Wed, 07 Dec 2011 11:25:33 +0900
+  * Fix for gcc 4.5 compilation
+  * add ignore file
 
+ -- Mike McCormack <mj.mccormack@samsung.com>  Fri, 11 Mar 2011 19:06:53 +0900
+
+libgcrypt11 (1.4.4-5) unstable; urgency=low
+
+  * remove .git
+
+ -- Youngjae Shin <yj99.shin@samsung.com>  Fri, 20 Nov 2009 14:42:04 +0900
+
+libgcrypt11 (1.4.4-4) unstable; urgency=low
+
+  * change debian/rules
+
+ -- Youngjae Shin <yj99.shin@samsung.com>  Mon, 16 Nov 2009 11:27:53 +0900
+
+libgcrypt11 (1.4.4-3) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Youngjae Shin <yj99.shin@samsung.com>  Fri, 13 Nov 2009 09:58:26 +0900
+
+libgcrypt11 (1.4.4-2) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Youngjae Shin <yj99.shin@samsung.com>  Fri, 13 Nov 2009 09:58:26 +0900
+
+libgcrypt11 (1.4.4-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Youngjae Shin <yj99.shin@samsung.com>  Fri, 13 Nov 2009 09:58:26 +0900
