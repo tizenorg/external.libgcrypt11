@@ -4,7 +4,7 @@ Version: 1.4.4
 Release: 5
 Source0: ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-%{version}.tar.gz
 
-License: LGPLv2+
+License: GPLv2 and LGPLv2.1
 Summary: A general-purpose cryptography library
 BuildRequires: gawk libgpg-error-devel pkgconfig
 Group: System/Libraries
