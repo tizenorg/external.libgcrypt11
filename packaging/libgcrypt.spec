@@ -1,6 +1,6 @@
 #sbs-git:slp/unmodified/libgcrypt11 libgcrypt 1.4.4 a8637cda42f30ffa3200f43cc02b9bc607008661
 Name: libgcrypt
-Version: 1.4.4
+Version: 1.4.5
 Release: 5
 Source0: ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-%{version}.tar.gz
 
@@ -34,6 +34,9 @@ make %{?jobs:-j%jobs}
 
 %install
 rm -fr $RPM_BUILD_ROOT
+mkdir -p %{buildroot}/usr/share/license
+cp COPYING.LIB %{buildroot}/usr/share/license/%{name}
+
 %make_install
 
 %remove_docs
@@ -47,6 +50,7 @@ rm -fr $RPM_BUILD_ROOT
 
 
 %files
+/usr/share/license/%{name}
 /%{_libdir}/*.so.*
 
 %files devel
