@@ -58,3 +58,4 @@ rm -fr $RPM_BUILD_ROOT
 %{_libdir}/*.so
 %exclude %{_bindir}/libgcrypt-config
 %exclude %{_prefix}/share/aclocal/*
+
