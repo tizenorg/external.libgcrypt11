@@ -4,7 +4,7 @@ Version: 1.4.4
 Release: 5
 Source0: ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-%{version}.tar.gz
 
-License: LGPLv2+
+License: LGPL-2.1+ and GPL-2.0+
 Summary: A general-purpose cryptography library
 BuildRequires: gawk libgpg-error-devel pkgconfig
 Group: System/Libraries
@@ -38,6 +38,10 @@ rm -fr $RPM_BUILD_ROOT
 
 %remove_docs
 
+mkdir -p %{buildroot}/usr/share/license
+cp COPYING %{buildroot}/usr/share/license/%{name}
+cat COPYING.LIB >> %{buildroot}/usr/share/license/%{name}
+
 %clean
 rm -fr $RPM_BUILD_ROOT
 
@@ -48,6 +52,7 @@ rm -fr $RPM_BUILD_ROOT
 
 %files
 /%{_libdir}/*.so.*
+/usr/share/license/%{name}
 
 %files devel
 %{_includedir}/*
